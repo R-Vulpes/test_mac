@@ -1,17 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
- 
+#include<stdio.h>
+#include<stdlib.h>
+
 int main()
 {
-    
-    
-    system("pause");
-    return 0;
+  int len = 0;
+  scanf("%d", &len);
+  char *c = (char*)malloc(len);
+  gets(c);
+  puts(c);
+  free(c);
+//   system("pause");
+  return 0;
 }
- 
-// int main()
-// {
-//     system("pause");
-//     return 0;
-// }
