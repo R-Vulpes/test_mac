@@ -4,7 +4,7 @@
 void test(int &x) // (int &x)可以将修改值带回
 {
     x = 1024;
-    printf("函数内部 x=%d\n",x);
+    printf("函数内 x=%d\n",x);
 }
 
 int main() 
